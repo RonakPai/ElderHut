@@ -1,0 +1,109 @@
+.title{
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(87, 104, 255, 0.4);
+}
+.titletext{
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    height: 60%;
+    top: 20%;
+    
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 83px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 35%;
+    top: 35%;
+    
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+
+.button2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 85%;
+    top: 35%;
+    
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+
+.button3{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 35%;
+    top: 65%;
+    
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+
+.button4{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 85%;
+    top: 65%;
+    
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+
+.done{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    left: 0px;
+    top: 90%;
+    
+    background: rgba(87, 104, 255, 0.8);
+
+}
+
+.submit-button{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 46%;
+    top: 5%;
+    
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 62px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
