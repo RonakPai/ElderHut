@@ -22,6 +22,7 @@
     display: flex;
     align-items: center;
     text-align: center;
+    white-space: nowrap;
     
     color: #000000;
     
@@ -77,4 +78,50 @@
     align-self: center;
     border-radius: 50%;
     margin-right: 10%;
+}
+
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.placeholder{
+    visibility: hidden;
+    position: relative;
+    padding-bottom: 9%;
+}
+
+.page{
+    animation-duration: 0.5s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+}
+.home{
+    position: absolute;
+    width: 9.5%;
+    left: 2%;
+    height: 60%;
+    top: 20%;
+    
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 83px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    border-style: solid;
+    
+    color: #424242;
 }
